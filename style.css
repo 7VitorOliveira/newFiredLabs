@@ -1,0 +1,226 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    background: #000000;
+    font-family: "Fira Code", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    border-bottom: solid 7px #638e9b;
+}
+
+/*#727597da*/
+.icon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 20px;
+    top: 7px;
+    border: solid;
+    border-radius: 7px;
+    border-color: #218bacd2;
+}
+.icon:hover {
+    transform: scale(1.02);
+}
+
+.menu {
+    position: absolute;
+    width: 750px;
+    right: 0px;
+    top: calc(50% - 26px/2);
+    display: inline-flex; 
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #4744dabe;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+a:hover {
+    transform: scale(1.02);
+}
+
+a::before {
+    content: "";
+    background-color: #403ebe;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.banner {
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    width: 627px;
+    height: 184px;
+    left: 91px;
+    top: 196px;
+    box-shadow: 12px 12px 0px 0px black;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.name {
+    position: absolute;
+    top: 45px;
+    left: 60px;
+    font-size: 37px;
+    color: #4744dabe;
+    text-shadow: 2px 1px black;
+}
+ 
+.dev {
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    font-size: 30px;   
+    color: #8f8df8c4;
+    text-shadow: 2px 1px black;
+}
+
+#button {
+     background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)
+}
+#button {  
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    top: -20px;
+    right: 13px;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    display: block;
+    box-shadow: 6px 6px 0 0 black;
+    height: 60px;
+ }
+
+ #button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: white;
+    text-decoration: none;
+    transform: scale(1.05);
+ }
+ 
+ #button2 {
+    background-image: linear-gradient(to right, #E0EAFC 0%, #CFDEF3  51%, #E0EAFC  100%)
+}
+ #button2 {
+    font-family: 'Press Start 2P', cursive;
+    width: 180px;
+    height: 55px;
+    left: 90px;
+    position: absolute;
+    top: 230px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    display: block;
+    box-shadow: 6px 6px 0 0 black;
+    color: #3b37b8be;
+  }
+  #button2:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    transform: scale(1.05);
+  } 
+
+#button3 {
+    background-image: linear-gradient(to right, #E0EAFC 0%, #CFDEF3  51%, #E0EAFC  100%)
+}
+#button3 {
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    left: 350px;
+    top: 230px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #3b37b8be;
+    display: block;
+    box-shadow: 6px 6px 0 0 black;
+}
+#button3:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+.backg {
+    width: 100%;
+    height: 950px;
+    background: url(assets/images/pixelart.png);
+    border-bottom: solid 10px rgb(16, 8, 54);
+}
+
+.myskills {
+    padding-top: 10px;
+    background-color: #ACACEA;
+    width: 100%;
+    height: 940px;
+}
+
+.sk {
+    position: relative;
+    left: 45%;
+    top: 10px;
+    font-size: 40px;
+    width: 235px;
+    
+}
+
+/* Bar */
+::-webkit-scrollbar {
+    background-color: #403ebe;
+}
+
+/* Scroll */
+::-webkit-scrollbar-thumb {
+    background-color: #403ebe;
+}
+
+/* Buttons */
+::-webkit-scrollbar-button {
+    background-color: #0e0d3fde;
+}
+
+/* Progress bar! */
+::-webkit-scrollbar-track-piece {
+    background-color: #DFDFF7;
+}
+
+.mais {
+    position: absolute;
+    top: 900px;
+    left: 15px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
